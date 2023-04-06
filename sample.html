@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Ceylon tea</title>
+	<link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Schibsted+Grotesk:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        
+		<nav>
+            <a href="sample.html"><img src="Images/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+         
+    <div class="text-box">
+            
+            <h1>World's best tea </h1>
+            <p>"Teatime is a chance to slow down, pull back, and appreciate our surroundings.”<br> This is just a sample here needs to add about the product you provide</p>
+           <a href="" class="hero-btn" >Visit Us to know More</a>
+    </div>
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+         function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+	
+
+<!--
+	<main>
+		<section>
+			<h2>About Us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel massa vitae urna feugiat tempus ac id velit. Praesent fringilla arcu nec bibendum fermentum. Vestibulum ac sapien quis mauris ullamcorper aliquam vel eget justo. </p>
+		</section>
+
+		<section>
+			<h2>Our Services</h2>
+			<ul>
+				<li>Service 1</li>
+				<li>Service 2</li>
+				<li>Service 3</li>
+			</ul>
+		</section>
+-->
+<!--	</main>-->
+
+	
+</body>
+</html>
